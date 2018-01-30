@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  margin: 15px;
+}
+.row {
+  background-color: #eee;
+}
+.col-12, .col-11, .col-10, .col-9, .col-8, .col-7, .col-6, .col-5, .col-4, .col-3, .col-2, .col-1 {
+  background-color: #444;
+/*  margin: 10px;*/
+  padding: 20px;
+} 
+div>div:after {
+  content: "";
+  display: block;
+  height: 40px;
+/*  background-color: #bbb;*/
+}
